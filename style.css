@@ -1,0 +1,182 @@
+/****** GENERALI ******/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+p, h1, h3, h4, h5, h6, span, div, b{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow:  7px  7px 7px #dedede,
+              -7px -7px 7px #dedede,
+               7px -7px 7px #dedede,
+              -7px 7px 7px #dedede;
+}
+
+.container {
+    width: 55%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/****** SEZIONE CARRELLO ******/
+.cart {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-box {
+    margin-bottom: 50px;
+}
+
+.prezzo-tot {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-font {
+    font-weight: 700;
+}
+
+.product-box {
+    margin-top: 50px;
+}
+
+.cart-box-style {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart_title {
+    width: 60%;
+    color: IndianRed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.cart_price {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: 700;
+}
+
+.qty {
+    width: 50px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.delete {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.remove {
+    background-color: IndianRed;
+    height: 30px;
+    margin: 15px 0;
+}
+
+.btn-style {
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+/****** SEZIONE PRODOTTI ******/
+#risultati {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prodotto {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pics {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+.details {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    color: IndianRed;
+    margin:  15px 0 15px;
+}
+
+.category {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    margin: 0 0 20px;
+    background-color: LawnGreen;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
